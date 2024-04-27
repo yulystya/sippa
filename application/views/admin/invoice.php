@@ -19,23 +19,17 @@
 	        </button>
 	      </div>
 	      <div class="modal-body">
-	        <form>
+	        <form method="post" action="<?php echo base_url('admin/invoice/print') ?>">
 		  </div>
 		  <div class="form-group">
 		    <label for="exampleFormControlSelect1">Example select</label>
 		    <select class="form-control" id="exampleFormControlSelect1">
+		      <option>0</option>
 		      <option>1</option>
-		      <option>2</option>
-		      <option>3</option>
-		      <option>4</option>
-		      <option>5</option>
 		    </select>
 		  </div>
+		  <button type="submit" class="btn btn-primary">Save changes</button>
 		</form>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-	        <button type="button" class="btn btn-primary">Save changes</button>
 	      </div>
 	    </div>
 	  </div>
